@@ -1,10 +1,16 @@
 package roadmap_topics_practices.basic_programming;
 
+import java.io.*;
 import java.util.*;
 
 public class ArrayListManipulation {
+
+
+
     public static void main(String[] args) {
+
         ArrayList<Integer> myArrayList = new ArrayList<Integer>();
+       
 
         myArrayList.add(10);
         myArrayList.add(20);
