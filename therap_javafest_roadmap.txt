@@ -1,0 +1,24 @@
+1. Basic Programming
+	1. Array manipulation
+	2. Control flow
+	3. Iterative programming
+	4. Method call
+
+2. Basic Java
+	1. Basic data type
+	2. Basic knowledge of String, I/O, java.util.*, Math API
+	3. Parsing with StringTokenizer/Scanner API
+	4. Collection Framework
+3. Data Structure
+	1. Composite data structure
+	2. LinkedList manipulation
+	3. Stack/Queue operations
+	4. Traversing Tree data structure
+	5. Basic Search/Sorting algorithm
+	6. Recursion
+4. Object Oriented Programming
+	1. Basic concept of OOP
+	2. Class design
+5. Puzzle
+	1. Simple puzzle
+	2. Math Puzzle
