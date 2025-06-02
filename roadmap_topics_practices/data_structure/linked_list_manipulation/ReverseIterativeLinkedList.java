@@ -1,8 +1,11 @@
 package roadmap_topics_practices.data_structure.linked_list_manipulation;
 
-public class IterativeLinkedList {
+public class ReverseIterativeLinkedList {
     Node head;
     private int size;
+    ReverseIterativeLinkedList(){
+          this.size = 0;
+    }
 
     public class Node {
         int data;
@@ -61,7 +64,7 @@ public class IterativeLinkedList {
     }
 
     public static void main(String[] args) {
-        IterativeLinkedList ill = new IterativeLinkedList();
+        ReverseIterativeLinkedList ill = new ReverseIterativeLinkedList();
         ill.addFirstNode(10);
         ill.addFirstNode(20);
         ill.addFirstNode(30);

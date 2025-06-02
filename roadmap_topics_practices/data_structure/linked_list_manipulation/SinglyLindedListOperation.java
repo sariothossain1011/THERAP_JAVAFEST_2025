@@ -5,7 +5,7 @@ public class SinglyLindedListOperation {
     private int size;
 
     SinglyLindedListOperation() {
-        this.size = size;
+        this.size = 0;
     }
 
     public class Node {
