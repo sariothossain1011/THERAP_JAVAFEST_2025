@@ -1,6 +1,6 @@
 package roadmap_topics_practices.data_structure.linked_list_manipulation;
 
-public class LinkedList {
+public class DoublyLinkedList {
 
     static class node {
         int data;
@@ -31,7 +31,12 @@ public class LinkedList {
     }
 
     static void insertatend(int data) {
+
         node lk = new node(data);
+        if (head == null) {
+            head = lk; // If list is empty, new node becomes head
+            return;
+        }
         node linkedlist = head;
         while (linkedlist.next != null) {
             linkedlist = linkedlist.next;
@@ -41,14 +46,17 @@ public class LinkedList {
 
     public static void main(String[] args) {
 
-        int k = 0;
         // follow LIFO - LAST IN FIRST OUT
         insertatbegin(12);
-        insertatend(60);
-        insertatend(20);
-        insertatend(30);
-        insertatend(50);
-         insertatend(70);
+        insertatbegin(22);
+        insertatbegin(30);
+        insertatbegin(44);
+        insertatbegin(50);
+        // insertatend(60);
+        // insertatend(20);
+        // insertatend(30);
+        // insertatend(50);
+        // insertatend(70);
         System.out.print("Linked list");
 
         printList();
